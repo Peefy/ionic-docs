@@ -16,7 +16,7 @@ import vue_example_vue from './vue/example_vue.md';
 import vue_router_ts from './vue/router_ts.md';
 
 import react_main_tsx from './react/main_tsx.md';
-import react_home_page_tsx from './react/home_page_tsx.md';
+import react_example_tsx from './react/example_tsx.md';
 
 <Playground
   version="7"
@@ -43,7 +43,7 @@ import react_home_page_tsx from './react/home_page_tsx.md';
     react: {
       files: {
         'src/main.tsx': react_main_tsx,
-        'src/pages/HomePage.tsx': react_home_page_tsx,
+        'src/pages/Example.tsx': react_example_tsx,
       },
     },
   }}

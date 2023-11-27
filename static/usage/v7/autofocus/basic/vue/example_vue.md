@@ -1,7 +1,6 @@
 ```html
 <template>
   <ion-page>
-    <ion-router-outlet></ion-router-outlet>
     <ion-list>
       <ion-item>
         <ion-input autofocus placeholder="with `autofocus`"></ion-input>
@@ -14,11 +13,11 @@
 </template>
 
 <script lang="ts">
-  import { IonInput, IonItem, IonList, IonPage, IonRouterOutlet, onIonViewDidEnter } from '@ionic/vue';
+  import { IonInput, IonItem, IonList, IonPage, onIonViewDidEnter } from '@ionic/vue';
   import { ref } from 'vue';
 
   export default {
-    components: { IonInput, IonItem, IonList, IonPage, IonRouterOutlet },
+    components: { IonInput, IonItem, IonList, IonPage },
     setup() {
       const input = ref();
       onIonViewDidEnter(() => {
